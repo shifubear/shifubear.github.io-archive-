@@ -1,0 +1,21 @@
+---
+layout: single
+title: Course Notes
+permalink: /notes/
+---
+
+<div>
+    LAMP 講座
+</div>
+
+{% for course in site.course_notes %}
+  <a href="{{ course.url }}">
+    {{ course.title }}
+  </a>
+
+  HELLO
+
+  <p>{{ course.content | markdownify }}</p>
+{% endfor %}
+
+{% include paginator.html %}

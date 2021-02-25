@@ -1,8 +1,5 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
-
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -12,20 +9,19 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
+# If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
+# gem "jekyll"
 
-# The following plugins are automatically loaded by the theme-gem:
-#   gem "jekyll-paginate"
-#   gem "jekyll-sitemap"
-#   gem "jekyll-gist"
-#   gem "jekyll-feed"
-#   gem "jekyll-include-cache"
-#
-# If you have any other plugins, put them here!
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# If you have any plugins, put them here!
 group :jekyll_plugins do
+  # gem "jekyll-archives"
+  gem "jekyll-feed"
+  gem 'jekyll-sitemap'
+  gem 'hawkins'
 end

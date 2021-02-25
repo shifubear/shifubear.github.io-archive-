@@ -1,18 +1,31 @@
 ---
-layout: single
-title: About
-permalink: /about/
+permalink: /
+title: "Shion Fukuzawa"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Hi!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Thanks for visiting my page! I'm a PhD candidate in Computer Science at the University of California, 
+Irvine in the [Center for Algorithms and Theory of Computation]("https://www.ics.uci.edu/~theory/"). 
+I am pleased to have [Dr. Michael Goodrich]("https://www.ics.uci.edu/~goodrich/") as my advisor.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My current interests are in computational geometry and topics in quantum information. 
 
+### Education
 
-[jekyll-organization]: https://github.com/jekyll
+#### University of California, Irvine
+
+September 2020 - Ongoing
+
+PhD in Computer Science
+
+#### Calvin University
+
+August 2016 - May 2020
+
+BS in Mathematics, minor in Computer Science
