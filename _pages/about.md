@@ -14,18 +14,4 @@ Thanks for visiting my page! I'm a PhD candidate in Computer Science at the Univ
 Irvine in the [Center for Algorithms and Theory of Computation]("https://www.ics.uci.edu/~theory/"). 
 I am pleased to have [Dr. Michael Goodrich]("https://www.ics.uci.edu/~goodrich/") as my advisor.
 
-My current interests are in computational geometry and topics in quantum information. 
-
-### Education
-
-#### University of California, Irvine
-
-September 2020 - Ongoing
-
-PhD in Computer Science
-
-#### Calvin University
-
-August 2016 - May 2020
-
-BS in Mathematics, minor in Computer Science
+My interests are in computational geometry and quantum computing. 
